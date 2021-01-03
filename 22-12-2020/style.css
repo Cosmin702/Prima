@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(0, 36, 36);
+}
+hgroup {
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 72px;
+    font-family:Arial, Helvetica, sans-serif;  
+}
