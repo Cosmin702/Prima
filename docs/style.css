@@ -1,6 +1,5 @@
 html, body {
   background-color: rgb(0, 0, 0);
-  margin: 0;
 } 
 
 .container {
@@ -21,6 +20,7 @@ transform: translate(-50%, -50%);
   height: auto;
   position: relative;
   opacity: 70%; 
+  padding-bottom: 8vw;
 }
 
 h1 {
@@ -29,11 +29,6 @@ h1 {
   font-size: 5vw;
   text-align: center;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-hr {
-  opacity: 0;
-  height: 100px;
 }
 
 #friends {
@@ -48,8 +43,8 @@ hr {
 #friends:hover {
   width: 35vw;
   height: 35vw;
-  opacity: 70%;
-
+  opacity: 90%;
+  overflow: hidden
 }
 
 h2 {
@@ -58,13 +53,48 @@ h2 {
   font-size: 5vw;
   text-align: center;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  width: 815px;
+  width: 69%;
+  height: 30vw;
+  margin-top: 7vw;
 }
 
 h3, h4 {
   color: white;
   font-size: 5vw;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
 
+#server {
+  width: 80vw;
+  height: 100%;
+  border: none;
+  display: block;
+  margin: auto;
+  transition: all 1s;
+}
 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#4ca3af;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4ca3af;
+  color: white;
+}
