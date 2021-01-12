@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+hr {
+    size: "10px";
+    color: yellow;
+}
+
+#span1 {
+    color:red;
+}
+
+#span2 {
+    color:yellow;
+}
