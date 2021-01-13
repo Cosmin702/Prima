@@ -4,15 +4,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color:black;
-    
+    background-position:  top ;
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
 body {
     background-image: url(img/Minecraft-Wallpapers-102.jpg);
     background-color: black;
     background-size: cover;
     background-position: center;
     }
-  }
+}
