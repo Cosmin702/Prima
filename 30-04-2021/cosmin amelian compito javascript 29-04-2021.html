@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><title>Media con scelta dei numeri massimo 5  - Cosmin Amelian</title>
+<script>
+//nn=numero dei numeri//
+var nn=parseInt(prompt("Scegli il numero dei numeri. MAX=5"));
+
+if (nn==0) {
+    alert("Nessun numero :(");
+}
+else if (nn==1) {
+    var n1=parseInt(prompt("Inserisci il primo numero che equivale alla media"));    
+    alert("La media è "+ n1); 
+}
+else if (nn==2) {
+    var n1=parseInt(prompt("Inserisci il primo numero"));
+    var n2=parseInt(prompt("Inserisci il secondo numero"));
+    var Media=(n1+n2)/nn;
+    alert("La media è "+ Media); 
+}
+else if (nn==3) {
+    var n1=parseInt(prompt("Inserisci il primo numero"));
+    var n2=parseInt(prompt("Inserisci il secondo numero"));
+    var n3=parseInt(prompt("Inserisci il terzo numero"));
+    var Media=(n1+n2+n3)/nn;
+    alert("La media è "+ Media); 
+}
+else if (nn==4) {
+    var n1=parseInt(prompt("Inserisci il primo numero"));
+    var n2=parseInt(prompt("Inserisci il secondo numero"));
+    var n3=parseInt(prompt("Inserisci il terzo numero"));
+    var n4=parseInt(prompt("Inserisci il quarto numero"));
+    var Media=(n1+n2+n3+n4)/nn;
+    alert("La media è "+ Media);    
+}
+else if (nn==5) {
+    var n1=parseInt(prompt("Inserisci il primo numero"));
+    var n2=parseInt(prompt("Inserisci il secondo numero"));
+    var n3=parseInt(prompt("Inserisci il terzo numero"));
+    var n4=parseInt(prompt("Inserisci il quarto numero"));
+    var n5=parseInt(prompt("Inserisci il quinto numero"));
+    var Media=(n1+n2+n3+n4+n5)/nn;
+    alert("La media è "+ Media);
+}
+else if (nn>5) {
+    alert("Numero troppo grande");
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>
