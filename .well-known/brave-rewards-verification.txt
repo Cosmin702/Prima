@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cosmin702.github.io
+Token: 85e057efa09e697db6263053380e951fc8bf9183948e5a7a6ce47617cdb47aee
